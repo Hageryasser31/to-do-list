@@ -1,0 +1,27 @@
+ body {
+      background: #f0f2f5;
+    }
+    .todo-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+    }
+    .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+    .task-item:hover {
+      background-color: #f8f9fa;
+    }
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.edit-btn {
+   background-color: pink;
+   color: white;
+}
+.edit-btn:hover{
+    background-color:blanchedalmond;
+}
